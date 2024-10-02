@@ -1,0 +1,26 @@
+.nav__top {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav__bottom {
+    height: 42px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .nav__top {
+        grid-template-columns: 1fr;
+    }
+
+    .nav__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,16 @@
+.main {
+      display: flex;
+  }
+  
+  .main__aside {
+      flex: 0 0 25%;
+      height: 460px;
+      background-color: #f0f0f0;
+  }
+  
+  .main__content {
+      flex: 0 0 75%;
+      height: 460px;
+      background-color: #e0e0e0;
+  }
+  

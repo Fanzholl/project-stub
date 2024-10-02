@@ -1,0 +1,10 @@
+.menu__item {
+      font-size: 28px;
+      margin: 0 15px;
+}
+
+@media (max-width: 768px) {
+      .menu__item {
+            margin: 10px 0;
+      }
+}
